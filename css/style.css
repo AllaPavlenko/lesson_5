@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family= Caveat:wght@400;600;700 & display=swap');
+
+@font-face {
+   font-family: "CharacterCats";
+   src: url("../fonts/CharacterCats.woff2") format("woff2"), url("../fonts/CharacterCats.woff") format(" woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "HitchHike";
+   src: url("../fonts/HitchHike.woff2") format("woff2"), url("../fonts/HitchHike.woff") format(" woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Garamond";
+   src: url("../fonts/Garamond-Italic.woff2") format("woff2"), url("../fonts/Garamond-Italic.woff") format(" woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+
+
+
+body {
+   background-color: #efefef;
+   line-height: 36px;
+   font-family: Garamond, sans-serif;
+}
+
+img {
+   width: 50%;
+}
+
+header,
+main,
+footer {
+   text-align: center;
+   margin: auto;
+   max-width: 960px;
+   min-width: 360px;
+   padding: 30px 40px 0;
+}
+
+.introduction{
+   margin: 30px;
+}
+
+H1{
+   font-family: HitchHike, sans-serif;
+   font-size: 56px;
+   font-weight: 400;
+   text-decoration: underline;
+   margin-bottom: 20px;
+}
+
+h2{
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 30px;
+   text-shadow: 1px 1px 5px rgb(212, 223, 12);
+   text-transform: capitalize;
+}
+
+li{
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 5px;
+}
+
+p{
+   font-size: 24px;
+   text-align: center;
+   font-weight: 700;
+   line-height: 2;
+   letter-spacing: 3px;
+   
+}
+
+.violet ~ p {
+   text-decoration: overline;
+}
+
+
+.violet {
+   color: #9b4296;
+   }
+
+.blue {
+   color: #0a42b9;
+}
+
+.yellow {
+   color: #f5f541 ;
+}
+
+.green {
+   color: #096321;
+}
+
+.red {
+   color:#bf0a09;
+}
+
+.pink {
+   color: #bf0a61;
+}
+
+.black {
+   color: #000;
+}
